@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*头部*/
+.header{
+	height:30px;
+	border-bottom: 1px solid #D4D4D4;
+	background-color: #E7E6E6;
+}
+.head_top a{
+   font-size: 12px;
+   font-family: "微软雅黑";
+   color:#656565;
+   float:left;
+   margin-left: 632px;
+   line-height: 30px;
+}
+.head_top p{
+   font-size: 12px;
+   font-family: "微软雅黑";
+   color:#F2A504;
+    line-height: 30px;
+   float:right;
+}
+.head_bottom{
+	height:99px;
+}
+.head_bottom img{
+	float:left;
+	margin-top: 12px;
+	margin-right: 43px;
+}
+.head_bottom a{
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#525252;
+	background: url(../img/shutiao.png)no-repeat right center;
+	padding-right: 26px;
+	margin-top: 57px;
+	margin-right: 33px;
+    float:left;
+}
+.head_bottom ol{
+	display:none;
+	height:171px;
+	width:103px;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#525252;
+    line-height: 36px;
+	background-color: rgba(255,255,255,.3);
+}
+.head_bottom ul li:hover ol{
+		display: block;
+}
+.bananer img{
+	width:100%;
+	height:400px;
+}
+.nav{
+	margin-top: 12px;
+	height: 30px;
+	background-color: #F1F0F0;
+}
+.nav h3{
+	margin-left: 4px;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#656565;
+    line-height: 30px;
+    background: url(../img/logo3.png)no-repeat left center;
+    padding-left: 19px;
+}
+
+.about{
+	height: 32px;
+	margin-top: 155px;
+	margin-bottom: 108px;
+}
+.news{
+	height:612px;
+}
+.news h3{
+	margin-top: 20px;
+	line-height: 60px;
+	text-align: center;
+    font-size: 34px;
+    font-family: "Arial";
+    color:#FF8A00;
+    font-weight: bold;
+}
+.news .h32 span{
+	margin-left: 20px;
+    font-size: 34px;
+    font-family: "微软雅黑";
+    color:#333333;
+}
+.news .p2{
+	margin-left: 185px;
+	width:640px;
+	text-align: center;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#999999;
+}
+.kuai{
+
+	float:left;
+	width:511px;
+	height:215px;
+	border-bottom: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+}
+.kuai .p1{
+	margin-top: 25px;
+	margin-left: 13px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    color:#656565;
+	width:378px;
+	height:109px;
+}
+.kuai h2{
+	margin-top: 57px;
+	font-weight: bold;
+	margin-left: 13px;
+	background: url(../img/tupian6.png)no-repeat left center;
+	padding-left: 22px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    color:#333333;
+}
+.kuai1{
+	float: right;
+	margin-top: -216px;
+	width:511px;
+	height:215px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.kuai1 .p1{
+	margin-top: 25px;
+	margin-left: 115px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    color:#656565;
+	width:378px;
+	height:109px;
+}
+.kuai1 h2{
+	margin-top: 57px;
+	font-weight: bold;
+	margin-left: 115px;
+	background: url(../img/tupian6.png)no-repeat left center;
+	padding-left: 22px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    color:#333333;
+}
+.news_bottom{
+	margin-top: 31px;
+	position: relative;
+}
+.news_bottom .tu4{
+	position:absolute;
+	left:400px;top:110px; 
+}
+
+
+
+
+.about ul{
+   margin-left: 305px;
+}
+.about ul li{
+	margin-right: 10px;
+	height: 32px;
+	float:left;
+	padding-left: 11px;
+	padding-right: 11px;
+	background-color: #0375BB;
+}
+.about ul .li1{
+	background-color: #fff;
+	border:1px solid #CDCDCD;
+	}
+.about ul li a{
+	line-height: 32px;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#fff;
+}
+.about ul li .a1{
+	 color:#333333;
+}
+.about ul .li1:hover{
+    background-color: #27A5EF;
+
+}
+.about ul li .a1:hover{
+	 color:#fff;
+}
+.footer{
+	padding-top: 28px;
+	height:268px;
+	background-color: #000000;
+}
+.foot .ul5{
+	float:left;
+    margin-right: 14px;
+    width:140px;
+}
+.foot .ul5 li{
+	margin-top: 24px;
+}
+.foot .ul5 h1{
+	font-weight: normal;
+	font-size: 16px;
+    font-family: "微软雅黑";
+    color:#fff;
+}
+.foot .ul5 li a{
+	line-height: 26px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    color:#CBCBCB;
+}
+.foot .tu6{
+	margin-right: 57px;
+}
+.foot_top{
+	height: 205px;
+	border-bottom: 1px solid #191416;
+}
+.foot_bottom p{
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+    font-family: "微软雅黑";
+    color:#CBCBCB;
+}
